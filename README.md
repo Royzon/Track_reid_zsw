@@ -1,4 +1,4 @@
-# YoloV5_JDE_TensorRT_for_Track
+# Track_reid_zsw
 
 ## Introduction
 A multi object detect and track Library Based on tensorrt
@@ -7,7 +7,7 @@ A multi object detect and track Library Based on tensorrt
 
 本算法的主框架采用了JDE+deepsort结构，其中由JDE算法检测出人的坐标与其对应的外观特征，然后基于deepsort的方法进行目标与运动轨迹的匹配。
 JDE中的检测框架则采用了YOLOV5 L 的模型结构。
-
+主要参考了下面四篇工作
 ## Reference
 * JDE: https://arxiv.org/pdf/1909.12605v1.pdf
 * CSTrack: https://arxiv.org/pdf/2010.12138.pdf
