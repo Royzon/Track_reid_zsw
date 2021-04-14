@@ -30,6 +30,5 @@ JDE中的检测框架则采用了YOLOV5 L 的模型结构。
 * cd demo/build
 * ./itest
 
-## Video Demo
-<img src="assets/demo.gif" width="800"/>
+
 
